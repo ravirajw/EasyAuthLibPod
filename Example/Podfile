@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EasyAuthLibPod_Tests' do
+  pod 'EasyAuthLibPod', :path => '../'
+  
+  
+end
