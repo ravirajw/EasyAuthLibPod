@@ -7,36 +7,26 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'EasyAuthLibPod'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EasyAuthLibPod.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+s.name                  = "EasyAuthLibPod"
+s.version               = "1.0.1"
+s.summary               = "Freshchat iOS SDK - Modern messaging software that your sales and customer engagement teams will love."
+s.description           = <<-DESC
+                          Modern messaging software that your sales and customer engagement teams will love.
+                          DESC
+s.homepage              = "https://github.com/ravirajw/EasyAuthLibPod"
+s.license               = { :type => 'MIT', :file => 'LICENSE' }
+s.author                = { "Raviraj" => "w.raviraj@yahoo.com" }
+s.platform              = :ios, "9.0"
+s.ios.deployment_target = '9.0'
+s.source                = { :git => "https://github.com/ravirajw/EasyAuthLibPod.git", :tag => "v#{s.version}" }
+#s.source                = { :git => 'https://github.com/ravirajw/EasyAuthLibPod.git', :tag => s.version.to_s }
+s.source_files          = "EasyAuthLibPod/*.{h}"
+s.preserve_paths        = "EasyAuthLibPod/*"
+s.resources             = "EasyAuthLibPod/Resources.bundle"
+s.ios.vendored_library  = "EasyAuthLibPod/libEasyAuthLibrary.a"
+s.frameworks            = "Foundation", "UIKit"
+s.xcconfig              = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/EasyAuthLibPod"' }
+s.requires_arc          = true
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/w.raviraj@yahoo.com/EasyAuthLibPod'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'w.raviraj@yahoo.com' => 'raviraj@sphinx-solution.com' }
-  s.source           = { :git => 'https://github.com/w.raviraj@yahoo.com/EasyAuthLibPod.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'EasyAuthLibPod/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'EasyAuthLibPod' => ['EasyAuthLibPod/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
