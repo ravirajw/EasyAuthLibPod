@@ -1,0 +1,16 @@
+PODS:
+  - EasyAuthLibPod (1.0.4)
+
+DEPENDENCIES:
+  - EasyAuthLibPod
+
+SPEC REPOS:
+  trunk:
+    - EasyAuthLibPod
+
+SPEC CHECKSUMS:
+  EasyAuthLibPod: 274c465904e0c3d6180ac7e55b26a33bccf884e1
+
+PODFILE CHECKSUM: 8ebe7dc520fafd48eaa324691c6dcaa4e4cb8849
+
+COCOAPODS: 1.9.2

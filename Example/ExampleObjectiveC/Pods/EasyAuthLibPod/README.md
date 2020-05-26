@@ -7,11 +7,9 @@
 
 ## Example
 
-There are two example projects included inside `Example` folder. One is Objective C example and another one is Swift example.
-To run the example project, clone the repo, and open `xcworkspace`. and run.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-Minimum iOS 9.0
 
 ## Installation
 
@@ -21,11 +19,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'EasyAuthLibPod'
 ```
-As this library is created in Objective C, for importing it in Swift project you will need to import `EasyAuthLibrary.h` file in bridging header file
 
 ## Author
 
-Raviraj Wadhwa, w.raviraj@yahoo.com, raviraj@sphinx-solution.com
+w.raviraj@yahoo.com, raviraj@sphinx-solution.com
 
 ## License
 
