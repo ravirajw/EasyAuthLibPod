@@ -19,8 +19,7 @@ s.license               = { :type => 'MIT', :file => 'LICENSE' }
 s.author                = { "Raviraj" => "w.raviraj@yahoo.com" }
 s.platform              = :ios, "9.0"
 s.ios.deployment_target = '9.0'
-s.source                = { :git => "https://github.com/ravirajw/EasyAuthLibPod.git", :tag => "v#{s.version}" }
-#s.source                = { :git => 'https://github.com/ravirajw/EasyAuthLibPod.git', :tag => s.version.to_s }
+s.source                = { :git => 'https://github.com/ravirajw/EasyAuthLibPod.git', :tag => s.version.to_s }
 s.source_files          = "EasyAuthLibPod/*.{h}"
 s.preserve_paths        = "EasyAuthLibPod/*"
 s.resources             = "EasyAuthLibPod/Resources.bundle"
