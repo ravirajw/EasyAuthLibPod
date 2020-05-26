@@ -12,7 +12,7 @@ s.name                  = "EasyAuthLibPod"
 s.version               = "1.0.0"
 s.summary               = "Freshchat iOS SDK - Modern messaging software that your sales and customer engagement teams will love."
 s.description           = <<-DESC
-                          Modern messaging software that your sales and customer engagement teams will love.
+                          Freshchat iOS SDK - Modern messaging software that your sales and customer engagement teams will love. Modern messaging software that your sales and customer engagement teams will love.
                           DESC
 s.homepage              = "https://github.com/ravirajw/EasyAuthLibPod"
 s.license               = { :type => 'MIT', :file => 'LICENSE' }
@@ -26,7 +26,7 @@ s.preserve_paths        = "EasyAuthLibPod/*"
 s.resources             = "EasyAuthLibPod/Resources.bundle"
 s.ios.vendored_library  = "EasyAuthLibPod/libEasyAuthLibrary.a"
 s.frameworks            = "Foundation", "UIKit"
-s.xcconfig              = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/EasyAuthLibPod"' }
+s.xcconfig              = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)"' }
 s.requires_arc          = true
 
 end
