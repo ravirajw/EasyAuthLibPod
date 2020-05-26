@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name                  = "EasyAuthLibPod"
-s.version               = "1.0.0"
+s.version               = "1.0.1"
 s.summary               = "Freshchat iOS SDK - Modern messaging software that your sales and customer engagement teams will love."
 s.description           = <<-DESC
                           Freshchat iOS SDK - Modern messaging software that your sales and customer engagement teams will love. Modern messaging software that your sales and customer engagement teams will love.
