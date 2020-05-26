@@ -14,4 +14,8 @@
 - (void)presentRegistrationInView:(UIViewController *)viewController;
 - (void)presentAboutUsInView:(UIViewController *)viewController;
 
+@property (nonatomic, strong) UIColor *registrationScreenBackgroundColor;
+@property (nonatomic, strong) UIFont *registrationScreenLabelEmailFont;
+@property (nonatomic, strong) UIColor *registrationScreenLabelEmailTextColor;
+
 @end
